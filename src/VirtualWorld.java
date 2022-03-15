@@ -49,7 +49,7 @@ public final class VirtualWorld extends PApplet
     }
 
     /*
-       Processing entry point for "sketch" setup.
+       Processing entry point for "sketch" setup 
     */
     public void setup() {
         this.imageStore = new ImageStore(
