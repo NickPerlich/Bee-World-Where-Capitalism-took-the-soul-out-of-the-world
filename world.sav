@@ -1,0 +1,1356 @@
+background grass 0 0
+background grass 1 0
+background grass 2 0
+background grass 3 0
+background grass 4 0
+background grass 5 0
+background grass 6 0
+background grass 7 0
+background grass 8 0
+background grass 9 0
+background grass 10 0
+background grass 11 0
+background grass 12 0
+background grass 13 0
+background grass 14 0
+background grass 15 0
+background grass 16 0
+background flowers 17 0
+background grass 18 0
+background grass 19 0
+background grass 20 0
+background grass 21 0
+background grass 22 0
+background grass 23 0
+background grass 24 0
+background grass 25 0
+background grass 26 0
+background grass 27 0
+background grass 28 0
+background grass 29 0
+background grass 30 0
+background grass 31 0
+background grass 32 0
+background grass 33 0
+background grass 34 0
+background grass 35 0
+background grass 36 0
+background grass 37 0
+background grass 38 0
+background grass 39 0
+background grass 0 1
+background flowers 1 1
+background flowers 2 1
+background flowers 3 1
+background flowers 4 1
+background flowers 5 1
+background grass 6 1
+background grass 7 1
+background grass 8 1
+background grass 9 1
+background grass 10 1
+background grass 11 1
+background grass 12 1
+background grass 13 1
+background grass 14 1
+background grass 15 1
+background flowers 16 1
+background flowers 17 1
+background grass 18 1
+background grass 19 1
+background flowers 20 1
+background grass 21 1
+background grass 22 1
+background grass 23 1
+background grass 24 1
+background grass 25 1
+background grass 26 1
+background grass 27 1
+background grass 28 1
+background grass 29 1
+background grass 30 1
+background grass 31 1
+background grass 32 1
+background grass 33 1
+background grass 34 1
+background grass 35 1
+background grass 36 1
+background grass 37 1
+background grass 38 1
+background flowers 39 1
+background grass 0 2
+background flowers 1 2
+background flowers 2 2
+background flowers 3 2
+background flowers 4 2
+background flowers 5 2
+background grass 6 2
+background grass 7 2
+background grass 8 2
+background grass 9 2
+background grass 10 2
+background grass 11 2
+background grass 12 2
+background grass 13 2
+background grass 14 2
+background grass 15 2
+background grass 16 2
+background grass 17 2
+background grass 18 2
+background grass 19 2
+background grass 20 2
+background grass 21 2
+background grass 22 2
+background grass 23 2
+background grass 24 2
+background grass 25 2
+background grass 26 2
+background grass 27 2
+background grass 28 2
+background grass 29 2
+background grass 30 2
+background grass 31 2
+background grass 32 2
+background grass 33 2
+background grass 34 2
+background grass 35 2
+background grass 36 2
+background grass 37 2
+background grass 38 2
+background grass 39 2
+background grass 0 3
+background flowers 1 3
+background flowers 2 3
+background flowers 3 3
+background dirt_horiz 4 3
+background flowers 5 3
+background grass 6 3
+background grass 7 3
+background grass 8 3
+background grass 9 3
+background grass 10 3
+background grass 11 3
+background grass 12 3
+background grass 13 3
+background grass 14 3
+background grass 15 3
+background grass 16 3
+background grass 17 3
+background grass 18 3
+background grass 19 3
+background grass 20 3
+background grass 21 3
+background grass 22 3
+background grass 23 3
+background grass 24 3
+background grass 25 3
+background grass 26 3
+background grass 27 3
+background grass 28 3
+background grass 29 3
+background grass 30 3
+background grass 31 3
+background grass 32 3
+background grass 33 3
+background grass 34 3
+background grass 35 3
+background grass 36 3
+background grass 37 3
+background grass 38 3
+background grass 39 3
+background grass 0 4
+background grass 1 4
+background flowers 2 4
+background flowers 3 4
+background dirt_vert_left 4 4
+background flowers 5 4
+background grass 6 4
+background grass 7 4
+background grass 8 4
+background grass 9 4
+background grass 10 4
+background grass 11 4
+background grass 12 4
+background grass 13 4
+background grass 14 4
+background grass 15 4
+background grass 16 4
+background grass 17 4
+background grass 18 4
+background flowers 19 4
+background grass 20 4
+background grass 21 4
+background grass 22 4
+background grass 23 4
+background grass 24 4
+background grass 25 4
+background grass 26 4
+background flowers 27 4
+background grass 28 4
+background flowers 29 4
+background grass 30 4
+background grass 31 4
+background grass 32 4
+background grass 33 4
+background grass 34 4
+background grass 35 4
+background grass 36 4
+background grass 37 4
+background grass 38 4
+background grass 39 4
+background grass 0 5
+background grass 1 5
+background grass 2 5
+background grass 3 5
+background dirt_vert_left 4 5
+background grass 5 5
+background grass 6 5
+background flowers 7 5
+background grass 8 5
+background grass 9 5
+background grass 10 5
+background grass 11 5
+background grass 12 5
+background grass 13 5
+background grass 14 5
+background grass 15 5
+background grass 16 5
+background grass 17 5
+background grass 18 5
+background grass 19 5
+background flowers 20 5
+background grass 21 5
+background grass 22 5
+background grass 23 5
+background grass 24 5
+background grass 25 5
+background grass 26 5
+background grass 27 5
+background flowers 28 5
+background grass 29 5
+background grass 30 5
+background grass 31 5
+background grass 32 5
+background grass 33 5
+background grass 34 5
+background grass 35 5
+background grass 36 5
+background grass 37 5
+background grass 38 5
+background grass 39 5
+background flowers 0 6
+background grass 1 6
+background grass 2 6
+background grass 3 6
+background dirt_bot_right_up 4 6
+background flowers 5 6
+background flowers 6 6
+background flowers 7 6
+background flowers 8 6
+background flowers 9 6
+background flowers 10 6
+background flowers 11 6
+background flowers 12 6
+background flowers 13 6
+background flowers 14 6
+background flowers 15 6
+background grass 16 6
+background grass 17 6
+background grass 18 6
+background grass 19 6
+background flowers 20 6
+background flowers 21 6
+background grass 22 6
+background grass 23 6
+background grass 24 6
+background grass 25 6
+background grass 26 6
+background grass 27 6
+background grass 28 6
+background grass 29 6
+background grass 30 6
+background grass 31 6
+background grass 32 6
+background grass 33 6
+background grass 34 6
+background grass 35 6
+background grass 36 6
+background grass 37 6
+background grass 38 6
+background grass 39 6
+background grass 0 7
+background flowers 1 7
+background flowers 2 7
+background flowers 3 7
+background dirt_vert_right 4 7
+background grass 5 7
+background grass 6 7
+background grass 7 7
+background grass 8 7
+background grass 9 7
+background grass 10 7
+background grass 11 7
+background grass 12 7
+background grass 13 7
+background grass 14 7
+background flowers 15 7
+background grass 16 7
+background grass 17 7
+background grass 18 7
+background grass 19 7
+background grass 20 7
+background grass 21 7
+background grass 22 7
+background grass 23 7
+background grass 24 7
+background grass 25 7
+background grass 26 7
+background grass 27 7
+background grass 28 7
+background grass 29 7
+background grass 30 7
+background grass 31 7
+background grass 32 7
+background grass 33 7
+background grass 34 7
+background grass 35 7
+background grass 36 7
+background grass 37 7
+background grass 38 7
+background grass 39 7
+background grass 0 8
+background grass 1 8
+background grass 2 8
+background grass 3 8
+background bridge 4 8
+background grass 5 8
+background grass 6 8
+background flowers 7 8
+background grass 8 8
+background grass 9 8
+background flowers 10 8
+background flowers 11 8
+background flowers 12 8
+background grass 13 8
+background grass 14 8
+background grass 15 8
+background flowers 16 8
+background flowers 17 8
+background flowers 18 8
+background grass 19 8
+background grass 20 8
+background grass 21 8
+background grass 22 8
+background grass 23 8
+background grass 24 8
+background grass 25 8
+background grass 26 8
+background grass 27 8
+background grass 28 8
+background grass 29 8
+background grass 30 8
+background grass 31 8
+background grass 32 8
+background grass 33 8
+background grass 34 8
+background grass 35 8
+background grass 36 8
+background grass 37 8
+background grass 38 8
+background grass 39 8
+background flowers 0 9
+background grass 1 9
+background grass 2 9
+background grass 3 9
+background bridge 4 9
+background dirt 5 9
+background flowers 6 9
+background flowers 7 9
+background flowers 8 9
+background flowers 9 9
+background flowers 10 9
+background flowers 11 9
+background flowers 12 9
+background flowers 13 9
+background flowers 14 9
+background grass 15 9
+background grass 16 9
+background grass 17 9
+background flowers 18 9
+background grass 19 9
+background grass 20 9
+background grass 21 9
+background grass 22 9
+background grass 23 9
+background grass 24 9
+background grass 25 9
+background grass 26 9
+background grass 27 9
+background grass 28 9
+background grass 29 9
+background grass 30 9
+background grass 31 9
+background grass 32 9
+background grass 33 9
+background grass 34 9
+background grass 35 9
+background grass 36 9
+background grass 37 9
+background grass 38 9
+background grass 39 9
+background grass 0 10
+background flowers 1 10
+background flowers 2 10
+background flowers 3 10
+background dirt_vert_left 4 10
+background flowers 5 10
+background grass 6 10
+background grass 7 10
+background grass 8 10
+background grass 9 10
+background grass 10 10
+background grass 11 10
+background grass 12 10
+background grass 13 10
+background flowers 14 10
+background flowers 15 10
+background grass 16 10
+background grass 17 10
+background flowers 18 10
+background flowers 19 10
+background grass 20 10
+background grass 21 10
+background grass 22 10
+background flowers 23 10
+background grass 24 10
+background grass 25 10
+background grass 26 10
+background grass 27 10
+background grass 28 10
+background grass 29 10
+background grass 30 10
+background grass 31 10
+background grass 32 10
+background flowers 33 10
+background flowers 34 10
+background flowers 35 10
+background flowers 36 10
+background flowers 37 10
+background flowers 38 10
+background flowers 39 10
+background grass 0 11
+background grass 1 11
+background grass 2 11
+background flowers 3 11
+background dirt_vert_left 4 11
+background grass 5 11
+background grass 6 11
+background grass 7 11
+background grass 8 11
+background grass 9 11
+background grass 10 11
+background grass 11 11
+background grass 12 11
+background grass 13 11
+background grass 14 11
+background grass 15 11
+background flowers 16 11
+background grass 17 11
+background grass 18 11
+background grass 19 11
+background flowers 20 11
+background flowers 21 11
+background grass 22 11
+background grass 23 11
+background grass 24 11
+background grass 25 11
+background flowers 26 11
+background grass 27 11
+background grass 28 11
+background grass 29 11
+background flowers 30 11
+background grass 31 11
+background grass 32 11
+background grass 33 11
+background grass 34 11
+background grass 35 11
+background flowers 36 11
+background flowers 37 11
+background flowers 38 11
+background flowers 39 11
+background grass 0 12
+background grass 1 12
+background grass 2 12
+background grass 3 12
+background dirt_vert_left 4 12
+background grass 5 12
+background grass 6 12
+background grass 7 12
+background grass 8 12
+background grass 9 12
+background grass 10 12
+background grass 11 12
+background grass 12 12
+background grass 13 12
+background grass 14 12
+background grass 15 12
+background flowers 16 12
+background grass 17 12
+background grass 18 12
+background grass 19 12
+background grass 20 12
+background flowers 21 12
+background flowers 22 12
+background grass 23 12
+background grass 24 12
+background grass 25 12
+background grass 26 12
+background grass 27 12
+background grass 28 12
+background grass 29 12
+background grass 30 12
+background grass 31 12
+background grass 32 12
+background grass 33 12
+background grass 34 12
+background grass 35 12
+background grass 36 12
+background grass 37 12
+background flowers 38 12
+background flowers 39 12
+background grass 0 13
+background grass 1 13
+background grass 2 13
+background grass 3 13
+background dirt_vert_left 4 13
+background grass 5 13
+background grass 6 13
+background grass 7 13
+background grass 8 13
+background grass 9 13
+background grass 10 13
+background grass 11 13
+background grass 12 13
+background grass 13 13
+background grass 14 13
+background grass 15 13
+background flowers 16 13
+background flowers 17 13
+background flowers 18 13
+background grass 19 13
+background grass 20 13
+background grass 21 13
+background flowers 22 13
+background flowers 23 13
+background grass 24 13
+background grass 25 13
+background grass 26 13
+background grass 27 13
+background grass 28 13
+background grass 29 13
+background grass 30 13
+background grass 31 13
+background grass 32 13
+background grass 33 13
+background grass 34 13
+background grass 35 13
+background grass 36 13
+background grass 37 13
+background grass 38 13
+background flowers 39 13
+background grass 0 14
+background grass 1 14
+background grass 2 14
+background grass 3 14
+background dirt_vert_left 4 14
+background grass 5 14
+background grass 6 14
+background grass 7 14
+background grass 8 14
+background grass 9 14
+background grass 10 14
+background grass 11 14
+background grass 12 14
+background grass 13 14
+background grass 14 14
+background grass 15 14
+background grass 16 14
+background grass 17 14
+background grass 18 14
+background flowers 19 14
+background grass 20 14
+background grass 21 14
+background grass 22 14
+background flowers 23 14
+background grass 24 14
+background grass 25 14
+background grass 26 14
+background grass 27 14
+background grass 28 14
+background grass 29 14
+background grass 30 14
+background grass 31 14
+background grass 32 14
+background grass 33 14
+background grass 34 14
+background grass 35 14
+background grass 36 14
+background grass 37 14
+background grass 38 14
+background flowers 39 14
+background grass 0 15
+background grass 1 15
+background grass 2 15
+background grass 3 15
+background dirt_vert_left 4 15
+background dirt_horiz 5 15
+background grass 6 15
+background grass 7 15
+background grass 8 15
+background grass 9 15
+background grass 10 15
+background grass 11 15
+background grass 12 15
+background grass 13 15
+background grass 14 15
+background grass 15 15
+background grass 16 15
+background grass 17 15
+background grass 18 15
+background flowers 19 15
+background flowers 20 15
+background grass 21 15
+background grass 22 15
+background flowers 23 15
+background flowers 24 15
+background grass 25 15
+background grass 26 15
+background grass 27 15
+background grass 28 15
+background grass 29 15
+background grass 30 15
+background grass 31 15
+background grass 32 15
+background grass 33 15
+background grass 34 15
+background grass 35 15
+background grass 36 15
+background grass 37 15
+background grass 38 15
+background flowers 39 15
+background grass 0 16
+background grass 1 16
+background grass 2 16
+background grass 3 16
+background grass 4 16
+background dirt_vert_left 5 16
+background grass 6 16
+background grass 7 16
+background grass 8 16
+background grass 9 16
+background grass 10 16
+background grass 11 16
+background grass 12 16
+background grass 13 16
+background grass 14 16
+background grass 15 16
+background grass 16 16
+background grass 17 16
+background grass 18 16
+background grass 19 16
+background flowers 20 16
+background grass 21 16
+background grass 22 16
+background grass 23 16
+background flowers 24 16
+background grass 25 16
+background grass 26 16
+background grass 27 16
+background grass 28 16
+background grass 29 16
+background grass 30 16
+background grass 31 16
+background grass 32 16
+background grass 33 16
+background grass 34 16
+background grass 35 16
+background grass 36 16
+background grass 37 16
+background grass 38 16
+background grass 39 16
+background grass 0 17
+background grass 1 17
+background grass 2 17
+background grass 3 17
+background grass 4 17
+background dirt_vert_left 5 17
+background grass 6 17
+background grass 7 17
+background grass 8 17
+background grass 9 17
+background grass 10 17
+background grass 11 17
+background grass 12 17
+background grass 13 17
+background grass 14 17
+background grass 15 17
+background grass 16 17
+background grass 17 17
+background grass 18 17
+background grass 19 17
+background grass 20 17
+background flowers 21 17
+background grass 22 17
+background grass 23 17
+background grass 24 17
+background flowers 25 17
+background flowers 26 17
+background grass 27 17
+background grass 28 17
+background grass 29 17
+background grass 30 17
+background grass 31 17
+background grass 32 17
+background grass 33 17
+background grass 34 17
+background grass 35 17
+background grass 36 17
+background flowers 37 17
+background flowers 38 17
+background flowers 39 17
+background grass 0 18
+background grass 1 18
+background grass 2 18
+background grass 3 18
+background grass 4 18
+background dirt_vert_left 5 18
+background grass 6 18
+background grass 7 18
+background grass 8 18
+background grass 9 18
+background grass 10 18
+background grass 11 18
+background grass 12 18
+background grass 13 18
+background grass 14 18
+background grass 15 18
+background grass 16 18
+background grass 17 18
+background grass 18 18
+background grass 19 18
+background grass 20 18
+background flowers 21 18
+background flowers 22 18
+background grass 23 18
+background grass 24 18
+background grass 25 18
+background flowers 26 18
+background flowers 27 18
+background flowers 28 18
+background flowers 29 18
+background flowers 30 18
+background grass 31 18
+background grass 32 18
+background grass 33 18
+background flowers 34 18
+background flowers 35 18
+background flowers 36 18
+background flowers 37 18
+background grass 38 18
+background grass 39 18
+background grass 0 19
+background grass 1 19
+background grass 2 19
+background grass 3 19
+background grass 4 19
+background dirt_vert_left 5 19
+background grass 6 19
+background grass 7 19
+background grass 8 19
+background grass 9 19
+background grass 10 19
+background grass 11 19
+background grass 12 19
+background grass 13 19
+background grass 14 19
+background grass 15 19
+background grass 16 19
+background grass 17 19
+background grass 18 19
+background grass 19 19
+background grass 20 19
+background grass 21 19
+background flowers 22 19
+background flowers 23 19
+background grass 24 19
+background grass 25 19
+background grass 26 19
+background grass 27 19
+background grass 28 19
+background grass 29 19
+background flowers 30 19
+background flowers 31 19
+background flowers 32 19
+background flowers 33 19
+background flowers 34 19
+background grass 35 19
+background bridge 36 19
+background bridge 37 19
+background grass 38 19
+background grass 39 19
+background grass 0 20
+background grass 1 20
+background grass 2 20
+background grass 3 20
+background grass 4 20
+background dirt_vert_left 5 20
+background dirt_bot_left_corner 6 20
+background grass 7 20
+background grass 8 20
+background grass 9 20
+background grass 10 20
+background grass 11 20
+background grass 12 20
+background grass 13 20
+background grass 14 20
+background grass 15 20
+background grass 16 20
+background grass 17 20
+background grass 18 20
+background grass 19 20
+background grass 20 20
+background grass 21 20
+background grass 22 20
+background flowers 23 20
+background flowers 24 20
+background grass 25 20
+background grass 26 20
+background grass 27 20
+background grass 28 20
+background grass 29 20
+background grass 30 20
+background grass 31 20
+background grass 32 20
+background grass 33 20
+background grass 34 20
+background grass 35 20
+background bridge 36 20
+background flowers 37 20
+background grass 38 20
+background flowers 39 20
+background grass 0 21
+background grass 1 21
+background grass 2 21
+background grass 3 21
+background grass 4 21
+background grass 5 21
+background dirt_vert_left_bot 6 21
+background dirt_bot_left_corner 7 21
+background grass 8 21
+background grass 9 21
+background grass 10 21
+background grass 11 21
+background grass 12 21
+background grass 13 21
+background grass 14 21
+background grass 15 21
+background grass 16 21
+background grass 17 21
+background grass 18 21
+background grass 19 21
+background grass 20 21
+background grass 21 21
+background grass 22 21
+background grass 23 21
+background flowers 24 21
+background flowers 25 21
+background flowers 26 21
+background flowers 27 21
+background flowers 28 21
+background flowers 29 21
+background grass 30 21
+background grass 31 21
+background grass 32 21
+background grass 33 21
+background grass 34 21
+background grass 35 21
+background flowers 36 21
+background flowers 37 21
+background flowers 38 21
+background flowers 39 21
+background grass 0 22
+background grass 1 22
+background grass 2 22
+background grass 3 22
+background grass 4 22
+background grass 5 22
+background grass 6 22
+background dirt_vert_left_bot 7 22
+background dirt_horiz 8 22
+background dirt_horiz 9 22
+background dirt_horiz 10 22
+background dirt_horiz 11 22
+background dirt_horiz 12 22
+background dirt_horiz 13 22
+background dirt_horiz 14 22
+background dirt_horiz 15 22
+background dirt_horiz 16 22
+background dirt_horiz 17 22
+background dirt_horiz 18 22
+background dirt_horiz 19 22
+background dirt_horiz 20 22
+background dirt_horiz 21 22
+background dirt_horiz 22 22
+background dirt_horiz 23 22
+background dirt_horiz 24 22
+background dirt_horiz 25 22
+background dirt_horiz 26 22
+background dirt_horiz 27 22
+background dirt_horiz 28 22
+background flowers 29 22
+background flowers 30 22
+background flowers 31 22
+background flowers 32 22
+background flowers 33 22
+background flowers 34 22
+background flowers 35 22
+background flowers 36 22
+background grass 37 22
+background grass 38 22
+background grass 39 22
+background grass 0 23
+background grass 1 23
+background grass 2 23
+background grass 3 23
+background grass 4 23
+background grass 5 23
+background grass 6 23
+background grass 7 23
+background grass 8 23
+background grass 9 23
+background grass 10 23
+background grass 11 23
+background grass 12 23
+background grass 13 23
+background grass 14 23
+background grass 15 23
+background grass 16 23
+background grass 17 23
+background grass 18 23
+background grass 19 23
+background grass 20 23
+background grass 21 23
+background dirt_vert_left 22 23
+background grass 23 23
+background grass 24 23
+background grass 25 23
+background grass 26 23
+background grass 27 23
+background dirt_vert_left 28 23
+background grass 29 23
+background grass 30 23
+background grass 31 23
+background grass 32 23
+background grass 33 23
+background grass 34 23
+background grass 35 23
+background grass 36 23
+background grass 37 23
+background grass 38 23
+background grass 39 23
+background grass 0 24
+background grass 1 24
+background grass 2 24
+background grass 3 24
+background grass 4 24
+background grass 5 24
+background grass 6 24
+background grass 7 24
+background grass 8 24
+background grass 9 24
+background grass 10 24
+background grass 11 24
+background grass 12 24
+background grass 13 24
+background grass 14 24
+background grass 15 24
+background grass 16 24
+background grass 17 24
+background grass 18 24
+background grass 19 24
+background grass 20 24
+background grass 21 24
+background dirt_vert_left 22 24
+background grass 23 24
+background grass 24 24
+background grass 25 24
+background grass 26 24
+background grass 27 24
+background dirt_vert_left 28 24
+background dirt_horiz 29 24
+background dirt_bot_left_corner 30 24
+background grass 31 24
+background grass 32 24
+background grass 33 24
+background grass 34 24
+background grass 35 24
+background grass 36 24
+background grass 37 24
+background grass 38 24
+background grass 39 24
+background flowers 0 25
+background grass 1 25
+background grass 2 25
+background grass 3 25
+background grass 4 25
+background grass 5 25
+background grass 6 25
+background grass 7 25
+background grass 8 25
+background grass 9 25
+background grass 10 25
+background grass 11 25
+background grass 12 25
+background grass 13 25
+background grass 14 25
+background grass 15 25
+background grass 16 25
+background grass 17 25
+background grass 18 25
+background grass 19 25
+background flowers 20 25
+background flowers 21 25
+background dirt_vert_left 22 25
+background flowers 23 25
+background grass 24 25
+background grass 25 25
+background grass 26 25
+background grass 27 25
+background grass 28 25
+background grass 29 25
+background dirt_vert_right 30 25
+background grass 31 25
+background grass 32 25
+background grass 33 25
+background grass 34 25
+background grass 35 25
+background grass 36 25
+background grass 37 25
+background grass 38 25
+background flowers 39 25
+background flowers 0 26
+background flowers 1 26
+background grass 2 26
+background grass 3 26
+background grass 4 26
+background grass 5 26
+background grass 6 26
+background grass 7 26
+background grass 8 26
+background grass 9 26
+background grass 10 26
+background grass 11 26
+background grass 12 26
+background grass 13 26
+background grass 14 26
+background grass 15 26
+background grass 16 26
+background grass 17 26
+background grass 18 26
+background flowers 19 26
+background flowers 20 26
+background flowers 21 26
+background dirt_bot_right_up 22 26
+background flowers 23 26
+background grass 24 26
+background grass 25 26
+background grass 26 26
+background grass 27 26
+background grass 28 26
+background grass 29 26
+background dirt_vert_left_bot 30 26
+background dirt_horiz 31 26
+background dirt_horiz 32 26
+background dirt_horiz 33 26
+background dirt_horiz 34 26
+background dirt_horiz 35 26
+background grass 36 26
+background grass 37 26
+background flowers 38 26
+background flowers 39 26
+background flowers 0 27
+background flowers 1 27
+background flowers 2 27
+background grass 3 27
+background grass 4 27
+background grass 5 27
+background grass 6 27
+background grass 7 27
+background grass 8 27
+background grass 9 27
+background grass 10 27
+background grass 11 27
+background grass 12 27
+background grass 13 27
+background grass 14 27
+background grass 15 27
+background grass 16 27
+background grass 17 27
+background grass 18 27
+background grass 19 27
+background flowers 20 27
+background flowers 21 27
+background flowers 22 27
+background flowers 23 27
+background grass 24 27
+background grass 25 27
+background grass 26 27
+background grass 27 27
+background grass 28 27
+background grass 29 27
+background grass 30 27
+background grass 31 27
+background grass 32 27
+background grass 33 27
+background grass 34 27
+background grass 35 27
+background grass 36 27
+background grass 37 27
+background flowers 38 27
+background flowers 39 27
+background flowers 0 28
+background flowers 1 28
+background flowers 2 28
+background grass 3 28
+background grass 4 28
+background grass 5 28
+background grass 6 28
+background grass 7 28
+background grass 8 28
+background grass 9 28
+background grass 10 28
+background grass 11 28
+background grass 12 28
+background grass 13 28
+background grass 14 28
+background grass 15 28
+background grass 16 28
+background grass 17 28
+background grass 18 28
+background grass 19 28
+background flowers 20 28
+background flowers 21 28
+background grass 22 28
+background flowers 23 28
+background grass 24 28
+background grass 25 28
+background grass 26 28
+background grass 27 28
+background grass 28 28
+background grass 29 28
+background grass 30 28
+background grass 31 28
+background grass 32 28
+background grass 33 28
+background grass 34 28
+background grass 35 28
+background grass 36 28
+background flowers 37 28
+background flowers 38 28
+background flowers 39 28
+background flowers 0 29
+background flowers 1 29
+background flowers 2 29
+background flowers 3 29
+background flowers 4 29
+background flowers 5 29
+background grass 6 29
+background grass 7 29
+background grass 8 29
+background grass 9 29
+background grass 10 29
+background grass 11 29
+background grass 12 29
+background grass 13 29
+background grass 14 29
+background grass 15 29
+background grass 16 29
+background grass 17 29
+background grass 18 29
+background grass 19 29
+background flowers 20 29
+background grass 21 29
+background grass 22 29
+background grass 23 29
+background grass 24 29
+background grass 25 29
+background grass 26 29
+background grass 27 29
+background grass 28 29
+background grass 29 29
+background grass 30 29
+background grass 31 29
+background grass 32 29
+background grass 33 29
+background flowers 34 29
+background flowers 35 29
+background grass 36 29
+background flowers 37 29
+background flowers 38 29
+background flowers 39 29
+tree tree_35_27 35 27 256 1168 2
+tree tree_35_25 35 25 144 1266 2
+obstacle obstacle_13_7 13 7 1126
+fairy fairy_0_0 0 0 51 51
+tree tree_0_2 0 2 501 1289 2
+obstacle obstacle_17_9 17 9 1105
+tree tree_30_6 30 6 50 1006 2
+fairy fairy_28_4 28 4 51 51
+obstacle obstacle_9_7 9 7 1159
+tree tree_5_0 5 0 451 1315 2
+obstacle obstacle_17_10 17 10 1047
+obstacle obstacle_11_8 11 8 1049
+tree tree_1_15 1 15 52 1371 1
+obstacle obstacle_36_19 36 19 1021
+tree tree_11_13 11 13 472 1006 2
+obstacle obstacle_10_8 10 8 1055
+obstacle obstacle_33_20 33 20 1153
+tree tree_7_5 7 5 504 1382 2
+obstacle obstacle_12_7 12 7 1109
+obstacle obstacle_2_9 2 9 1091
+obstacle obstacle_35_19 35 19 1184
+obstacle obstacle_14_7 14 7 1135
+obstacle obstacle_23_17 23 17 1140
+obstacle obstacle_22_16 22 16 1185
+obstacle obstacle_22_14 22 14 1108
+obstacle obstacle_36_20 36 20 1104
+tree tree_18_4 18 4 513 1330 2
+tree tree_2_25 2 25 93 1041 2
+tree tree_26_1 26 1 129 1231 1
+tree tree_1_1 1 1 419 1335 1
+tree tree_16_4 16 4 187 1253 2
+tree tree_7_3 7 3 438 1354 2
+tree tree_27_8 27 8 160 1328 1
+obstacle obstacle_39_18 39 18 1086
+obstacle obstacle_17_11 17 11 1165
+obstacle obstacle_11_7 11 7 1197
+obstacle obstacle_5_9 5 9 1154
+obstacle obstacle_20_12 20 12 1135
+obstacle obstacle_34_21 34 21 1107
+dude dude_22_26 22 26 4 787 100
+obstacle obstacle_29_20 29 20 1001
+tree tree_7_0 7 0 522 1352 1
+tree tree_3_0 3 0 185 1387 1
+tree tree_1_3 1 3 357 1164 2
+obstacle obstacle_15_8 15 8 1158
+obstacle obstacle_14_8 14 8 1097
+tree tree_10_13 10 13 262 1205 1
+tree tree_27_10 27 10 346 1361 1
+tree tree_2_4 2 4 114 1088 1
+tree tree_3_24 3 24 162 1314 1
+tree tree_1_2 1 2 553 1206 1
+obstacle obstacle_24_18 24 18 1038
+fairy fairy_39_29 39 29 51 51
+obstacle obstacle_21_14 21 14 1040
+obstacle obstacle_21_16 21 16 1053
+tree tree_6_3 6 3 516 1068 2
+tree tree_25_26 25 26 542 1190 1
+obstacle obstacle_5_7 5 7 1193
+obstacle obstacle_29_19 29 19 1149
+tree tree_13_15 13 15 203 1381 2
+obstacle obstacle_28_20 28 20 1113
+obstacle obstacle_28_19 28 19 1017
+tree tree_6_2 6 2 554 1165 1
+obstacle obstacle_9_8 9 8 1042
+obstacle obstacle_31_20 31 20 1140
+tree tree_18_0 18 0 294 1045 2
+tree tree_31_7 31 7 391 1024 2
+obstacle obstacle_24_17 24 17 1083
+obstacle obstacle_25_19 25 19 1072
+obstacle obstacle_21_13 21 13 1006
+dude dude_35_26 35 26 4 784 100
+tree tree_19_1 19 1 300 1154 1
+tree tree_8_1 8 1 106 1269 1
+obstacle obstacle_18_12 18 12 1190
+obstacle obstacle_35_21 35 21 1147
+tree tree_37_27 37 27 367 1195 2
+obstacle obstacle_18_11 18 11 1089
+obstacle obstacle_5_8 5 8 1097
+house house_36_26 36 26
+obstacle obstacle_0_8 0 8 1018
+obstacle obstacle_0_7 0 7 1141
+tree tree_25_4 25 4 198 1106 2
+obstacle obstacle_33_21 33 21 1192
+obstacle obstacle_30_20 30 20 1105
+tree tree_27_2 27 2 544 1354 2
+tree tree_24_26 24 26 527 1389 1
+obstacle obstacle_21_15 21 15 1166
+obstacle obstacle_22_15 22 15 1101
+obstacle obstacle_32_20 32 20 1171
+obstacle obstacle_13_8 13 8 1025
+obstacle obstacle_38_18 38 18 1091
+obstacle obstacle_31_21 31 21 1060
+obstacle obstacle_24_19 24 19 1048
+obstacle obstacle_19_12 19 12 1175
+obstacle obstacle_6_8 6 8 1038
+obstacle obstacle_16_9 16 9 1190
+obstacle obstacle_27_19 27 19 1116
+tree tree_37_26 37 26 55 1260 2
+obstacle obstacle_7_8 7 8 1156
+obstacle obstacle_19_13 19 13 1010
+house house_3_3 3 3
+tree tree_27_1 27 1 384 1266 2
+obstacle obstacle_25_20 25 20 1156
+obstacle obstacle_2_8 2 8 1156
+house house_21_26 21 26
+obstacle obstacle_6_7 6 7 1167
+obstacle obstacle_35_20 35 20 1093
+obstacle obstacle_30_21 30 21 1143
+tree tree_1_14 1 14 366 1165 2
+obstacle obstacle_26_20 26 20 1082
+obstacle obstacle_12_8 12 8 1148
+tree tree_6_22 6 22 328 1155 2
+tree tree_25_27 25 27 471 1004 1
+obstacle obstacle_17_12 17 12 1145
+obstacle obstacle_3_8 3 8 1019
+obstacle obstacle_27_20 27 20 1161
+obstacle obstacle_16_10 16 10 1083
+obstacle obstacle_10_7 10 7 1063
+tree tree_24_5 24 5 328 1194 2
+tree tree_5_21 5 21 550 1278 1
+tree tree_26_26 26 26 339 1113 1
+tree tree_4_25 4 25 170 1038 1
+tree tree_36_25 36 25 124 1283 1
+obstacle obstacle_8_8 8 8 1017
+tree tree_8_3 8 3 406 1186 1
+obstacle obstacle_25_18 25 18 1125
+tree tree_37_25 37 25 186 1219 2
+obstacle obstacle_22_17 22 17 1052
+tree tree_23_4 23 4 419 1128 2
+obstacle obstacle_1_8 1 8 1041
+dude dude_4_3 4 3 3 848 100
+obstacle obstacle_19_11 19 11 1071
+tree tree_17_3 17 3 61 1050 1
+obstacle obstacle_1_9 1 9 1112
+fairy fairy_13_10 13 10 51 51
+obstacle obstacle_38_19 38 19 1098
+obstacle obstacle_23_18 23 18 1079
+obstacle obstacle_20_13 20 13 1075
+obstacle obstacle_23_16 23 16 1101
+obstacle obstacle_15_9 15 9 1118
+obstacle obstacle_7_7 7 7 1183
+tree tree_25_5 25 5 330 1328 1
+obstacle obstacle_34_20 34 20 1014
+obstacle obstacle_3_9 3 9 1199
+tree tree_17_4 17 4 111 1206 1
+obstacle obstacle_20_14 20 14 1140
+tree tree_24_4 24 4 182 1027 2
+tree tree_36_27 36 27 150 1230 2
+dude dude_6_21 6 21 4 720 100
+tree tree_26_9 26 9 594 1345 1
+obstacle obstacle_8_7 8 7 1101
+tree tree_11_14 11 14 173 1274 1
+tree tree_31_6 31 6 69 1273 1
+obstacle obstacle_26_19 26 19 1057
+tree tree_5_5 5 5 545 1343 1
+obstacle obstacle_32_21 32 21 1139
