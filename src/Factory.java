@@ -76,6 +76,18 @@ public class Factory {
         return new Dude_Not_Full(id, position, images, resourceLimit, actionPeriod, animationPeriod);
     }
 
+    // need resource count, though it always starts at 0
+    public static Bee_Not_Full createBeeNotFull(
+            String id,
+            Point position,
+            int actionPeriod,
+            int animationPeriod,
+            int resourceLimit,
+            List<PImage> images)
+    {
+        return new Bee_Not_Full(id, position, images, resourceLimit, actionPeriod, animationPeriod);
+    }
+
     // don't technically need resource count ... full
     public static Dude_Full createDudeFull(
             String id,
@@ -86,4 +98,16 @@ public class Factory {
             List<PImage> images) {
         return new Dude_Full(id, position, images, resourceLimit, actionPeriod, animationPeriod);
     }
+
+    // don't technically need resource count ... full
+    public static Bee_Full createBeeFull(
+            String id,
+            Point position,
+            int actionPeriod,
+            int animationPeriod,
+            int resourceLimit,
+            List<PImage> images) {
+        return new Bee_Full(id, position, images, resourceLimit, actionPeriod, animationPeriod);
+    }
+
 }

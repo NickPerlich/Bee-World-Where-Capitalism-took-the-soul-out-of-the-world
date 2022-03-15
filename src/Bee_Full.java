@@ -7,10 +7,10 @@ import processing.core.PImage;
  * different kinds of entities that exist.
  */
 
-public final class Dude_Full extends DudeEntity
+public final class Bee_Full extends BeeEntity
 {
 
-    public Dude_Full(
+    public Bee_Full(
             String id,
             Point position,
             List<PImage> images,
@@ -30,7 +30,7 @@ public final class Dude_Full extends DudeEntity
         Optional<Entity> fullTarget =
                 world.findNearest(getPosition(), new ArrayList<Class>(Arrays.asList(House.class)));
 
-        if (fullTarget.isPresent() && this.moveToDude(world,
+        if (fullTarget.isPresent() && this.moveToBee(world,
                 fullTarget.get(), scheduler))
         {
             this.transformFull(world, scheduler, imageStore);
@@ -52,24 +52,11 @@ public final class Dude_Full extends DudeEntity
                 getResourceLimit(),
                 getImages());
 
-        this.transformDude(world, scheduler, imageStore, miner);
+        this.transformBee(world, scheduler, imageStore, miner);
     }
 
-    public void change(
-            WorldModel world,
-            EventScheduler scheduler,
-            ImageStore imageStore)
-    {
-        ActingEntity miner = Factory.createBeeFull(getId(),
-                getPosition(), getActionPeriod(),
-                getAnimationPeriod(),
-                getResourceLimit(),
-                getImages());
 
-        super.change(world, scheduler, imageStore, miner);
-    }
-
-    public boolean _moveToDudeHelper(Entity target) {
+    public boolean _moveToBeeHelper(Entity target) {
         return true;
     }
 

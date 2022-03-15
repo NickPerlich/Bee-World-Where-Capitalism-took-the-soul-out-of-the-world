@@ -7,11 +7,11 @@ import processing.core.PImage;
  * different kinds of entities that exist.
  */
 
-public final class Sapling extends PlantEntity
+public final class Flower_Bud extends PlantEntity
 {
     private int healthLimit;
 
-    public Sapling(
+    public Flower_Bud(
             String id,
             Point position,
             List<PImage> images,
