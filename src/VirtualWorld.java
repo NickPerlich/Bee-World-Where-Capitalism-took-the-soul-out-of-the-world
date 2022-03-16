@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Optional;
+import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -54,6 +55,7 @@ public final class VirtualWorld extends PApplet
     private int clicks;
     private Entity teleportExit;
     public static final int CLICK_RANGE = 1;
+    public static final int TRANSFORM_RANGE = 3;
 
     public void settings() {
         size(VIEW_WIDTH, VIEW_HEIGHT);
@@ -115,25 +117,30 @@ public final class VirtualWorld extends PApplet
         //update clicks counter and linker and link teles if needed
 
         //find all points within range
-        Function<Point, Stream<Point>> pointStreamFunction = point ->
+        BiFunction<Point, Integer, Stream<Point>> pointStreamFunction = (point, range) ->
         {
             List<Point> possible = new ArrayList<Point>();
-            for (int i = -CLICK_RANGE; i <= CLICK_RANGE; i++)
+            for (int i = -range; i <= range; i++)
             {
-                for (int j = -CLICK_RANGE; j <= CLICK_RANGE; j ++)
+                for (int j = -range; j <= range; j ++)
                 {
-                    possible.add(new Point(pressed.x + i, pressed.y + j));
+                    possible.add(new Point(point.x + i, point.y + j));
                 }
             }
-            return possible.stream();
+            return possible.stream().filter(p->world.withinBounds(p));
         };
-        Stream<Point> withinRange = pointStreamFunction.apply(pressed).filter(p-> world.withinBounds(p));
+        Stream<Point> withinRange = pointStreamFunction.apply(pressed, CLICK_RANGE);
 
         //change all background tiles in range
         withinRange.forEach(p -> world.setBackground(p, new Background(HIVE_IMAGE_NAME, imageStore.getImageList(HIVE_IMAGE_NAME))));
 
-        //use the points to find all entities within range that are changeable
-        //List<Point> possible = withinRange.collect(Collectors.toList());
+        //use the points to find all entities within range that are changeable and call the change function
+        pointStreamFunction.apply(pressed, TRANSFORM_RANGE).filter(p->world.isOccupied(p)).map(p->world.getOccupancyCell(p)).forEach(entity->{
+            if (entity instanceof Changeable)
+            {
+                ((Changeable)entity).change();
+            }
+        });
     }
 
     private Point mouseToPoint(int x, int y)
