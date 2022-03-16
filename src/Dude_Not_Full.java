@@ -7,7 +7,7 @@ import processing.core.PImage;
  * different kinds of entities that exist.
  */
 
-public final class Dude_Not_Full extends DudeEntity
+public final class Dude_Not_Full extends DudeEntity implements Changeable
 {
     private int resourceCount;
 
@@ -63,7 +63,7 @@ public final class Dude_Not_Full extends DudeEntity
         return false;
     }
 
-    public boolean change(
+    public void change(
             WorldModel world,
             EventScheduler scheduler,
             ImageStore imageStore)
@@ -73,14 +73,10 @@ public final class Dude_Not_Full extends DudeEntity
                     getPosition(), getActionPeriod(),
                     getAnimationPeriod(),
                     getResourceLimit(),
-                    getImages());
+                    imageStore.getImageList("bee"));
 
             this.transformDude(world, scheduler, imageStore, miner);
-
-            return true;
         }
-
-        return false;
     }
 
     public boolean _moveToDudeHelper(Entity target) {

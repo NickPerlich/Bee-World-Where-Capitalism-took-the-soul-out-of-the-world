@@ -7,7 +7,7 @@ import processing.core.PImage;
  * different kinds of entities that exist.
  */
 
-public final class Dude_Full extends DudeEntity
+public final class Dude_Full extends DudeEntity implements Changeable
 {
 
     public Dude_Full(
