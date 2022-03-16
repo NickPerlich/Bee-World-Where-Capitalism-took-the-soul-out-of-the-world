@@ -29,7 +29,7 @@ public final class Bee_Not_Full extends BeeEntity
             EventScheduler scheduler)
     {
         Optional<Entity> target =
-                world.findNearest(getPosition(), new ArrayList<Class>(Arrays.asList(Tree.class, Sapling.class)));
+                world.findNearest(getPosition(), new ArrayList<Class>(Arrays.asList(Flower.class, Flower_Bud.class)));
 
         if (!target.isPresent() || !this.moveToBee(world,
                 target.get(),
@@ -47,7 +47,7 @@ public final class Bee_Not_Full extends BeeEntity
             ImageStore imageStore)
     {
         if (resourceCount >= getResourceLimit()) {
-            ActingEntity miner = Factory.createDudeFull(getId(),
+            ActingEntity miner = Factory.createBeeFull(getId(),
                     getPosition(), getActionPeriod(),
                     getAnimationPeriod(),
                     getResourceLimit(),
@@ -64,7 +64,7 @@ public final class Bee_Not_Full extends BeeEntity
 
     public boolean _moveToBeeHelper(Entity target) {
         resourceCount += 1;
-        ((PlantEntity) target).setHealth(((PlantEntity)target).getHealth()-1);
+        ((FlowerEntity) target).setHealth(((FlowerEntity)target).getHealth()-1);
         return true;
     }
 

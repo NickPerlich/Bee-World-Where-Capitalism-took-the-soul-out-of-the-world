@@ -62,13 +62,5 @@ public abstract class DudeEntity extends ActingEntity {
         miner.scheduleActions(scheduler, world, imageStore);
     }
 
-    public void change(WorldModel world, EventScheduler scheduler, ImageStore imageStore, ActingEntity miner) {
-        world.removeEntity(this);
-        scheduler.unscheduleAllEvents(this);
-
-        world.addEntity(miner);
-        miner.scheduleActions(scheduler, world, imageStore);
-    }
-
 }
 

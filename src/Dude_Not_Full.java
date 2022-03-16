@@ -75,7 +75,7 @@ public final class Dude_Not_Full extends DudeEntity
                     getResourceLimit(),
                     getImages());
 
-            super.change(world, scheduler, imageStore, miner);
+            this.transformDude(world, scheduler, imageStore, miner);
 
             return true;
         }

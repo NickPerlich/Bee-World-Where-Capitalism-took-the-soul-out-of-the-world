@@ -46,7 +46,7 @@ public final class Bee_Full extends BeeEntity
             EventScheduler scheduler,
             ImageStore imageStore)
     {
-        ActingEntity miner = Factory.createDudeNotFull(getId(),
+        ActingEntity miner = Factory.createBeeNotFull(getId(),
                 getPosition(), getActionPeriod(),
                 getAnimationPeriod(),
                 getResourceLimit(),

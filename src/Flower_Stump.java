@@ -17,5 +17,4 @@ public final class Flower_Stump extends Entity
         super(id, position, images);
     }
 
-
 }

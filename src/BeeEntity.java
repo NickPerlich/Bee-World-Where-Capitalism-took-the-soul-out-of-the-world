@@ -23,7 +23,8 @@ public abstract class BeeEntity extends ActingEntity {
         PathingStrategy pathingStrat = new AStarPathingStrategy();
         Point start = getPosition();
         Point end = destPos;
-        Predicate<Point> canPassThrough = p -> world.withinBounds(p) && (!(world.isOccupied(p)) || world.getOccupancyCell(p).getClass() == Stump.class);
+        Predicate<Point> canPassThrough = p -> world.withinBounds(p) && (!(world.isOccupied(p)) || world.getOccupancyCell(p).getClass() == Stump.class
+                || world.getOccupancyCell(p).getClass() == Flower_Stump.class);
         BiPredicate<Point, Point> withinReach = Point::adjacent;
         Function<Point, Stream<Point>> potentialNeighbors = pathingStrat.CARDINAL_NEIGHBORS;
         List<Point> path = pathingStrat.computePath(start, end,canPassThrough, withinReach, potentialNeighbors);

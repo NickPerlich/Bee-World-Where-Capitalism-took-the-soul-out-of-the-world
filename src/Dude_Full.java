@@ -66,14 +66,11 @@ public final class Dude_Full extends DudeEntity
                 getResourceLimit(),
                 getImages());
 
-        super.change(world, scheduler, imageStore, miner);
+        this.transformDude(world, scheduler, imageStore, miner);
     }
 
     public boolean _moveToDudeHelper(Entity target) {
         return true;
     }
-
-
-
 
 }
