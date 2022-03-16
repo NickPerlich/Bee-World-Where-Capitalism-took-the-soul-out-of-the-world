@@ -37,7 +37,7 @@ public final class Pollinator extends ActingEntity
 
             if (this.moveToFairy(world, fairyTarget.get(), scheduler)) {
                 ActingEntity flowerBud = Factory.createFlower_Bud("sapling_" + getId(), tgtPos,
-                        imageStore.getImageList(Functions.SAPLING_KEY));
+                        imageStore.getImageList("bud"));
 
                 world.addEntity(flowerBud);
                 flowerBud.scheduleActions(scheduler, world, imageStore);

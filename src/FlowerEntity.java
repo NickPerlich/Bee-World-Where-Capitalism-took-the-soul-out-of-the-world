@@ -14,7 +14,7 @@ public abstract class FlowerEntity extends ActingEntity {
     public boolean transformFlower(WorldModel world, EventScheduler scheduler, ImageStore imageStore) {
         Entity flowerStump = Factory.createFlower_Stump(this.getId(),
                 this.getPosition(),
-                imageStore.getImageList(Functions.STUMP_KEY));
+                imageStore.getImageList("flrstmp"));
 
         world.removeEntity(this);
         scheduler.unscheduleAllEvents(this);

@@ -53,7 +53,7 @@ public final class VirtualWorld extends PApplet
     private long nextTime;
 
     private int clicks;
-    private Entity teleportExit;
+    private TeleporterExit teleportExit;
     public static final int CLICK_RANGE = 1;
     public static final int TRANSFORM_RANGE = 3;
 
@@ -113,8 +113,35 @@ public final class VirtualWorld extends PApplet
         * 2. putting down an entrance and changing background tiles
         *   linking  the entrance to the exit.*/
 
-        //put down exit/entrance
+        //put down exit
+        if (clicks % 2 == 0)
+        {
+            if (world.isOccupied(pressed))
+            {
+                Entity entity = world.getOccupancyCell(pressed);
+                world.removeEntity(entity);
+                scheduler.unscheduleAllEvents(entity);
+            }
+            TeleporterExit tele = Factory.createExit("exit_", pressed, imageStore.getImageList("exit"));
+            world.addEntity(tele);
+
+            teleportExit = tele;
+        }
+        else //put down entrance
+        {
+            if (world.isOccupied(pressed))
+            {
+                Entity entity = world.getOccupancyCell(pressed);
+                world.removeEntity(entity);
+                scheduler.unscheduleAllEvents(entity);
+            }
+            TeleporterEntrance tele = Factory.createEntrance("entrance_", pressed, imageStore.getImageList("entrance"), Functions.FAIRY_ANIMATION_PERIOD, Functions.FAIRY_ACTION_PERIOD, teleportExit);
+            world.addEntity(tele);
+            tele.scheduleActions(scheduler, world, imageStore);
+        }
+
         //update clicks counter and linker and link teles if needed
+        clicks ++;
 
         //find all points within range
         BiFunction<Point, Integer, Stream<Point>> pointStreamFunction = (point, range) ->

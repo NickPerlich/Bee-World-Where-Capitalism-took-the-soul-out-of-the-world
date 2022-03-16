@@ -40,12 +40,12 @@ public final class Flower_Bud extends FlowerEntity
         }
         else if (this.getHealth() >= healthLimit)
         {
-            PlantEntity tree = Factory.createTree("tree_" + this.getId(),
+            FlowerEntity tree = Factory.createFlower("tree_" + this.getId(),
                     this.getPosition(),
                     Functions.getNumFromRange(Functions.TREE_ACTION_MAX, Functions.TREE_ACTION_MIN),
                     Functions.getNumFromRange(Functions.TREE_ANIMATION_MAX, Functions.TREE_ANIMATION_MIN),
                     Functions.getNumFromRange(Functions.TREE_HEALTH_MAX, Functions.TREE_HEALTH_MIN),
-                    imageStore.getImageList(Functions.TREE_KEY));
+                    imageStore.getImageList("flower"));
 
             world.removeEntity(this);
             scheduler.unscheduleAllEvents(this);

@@ -19,6 +19,18 @@ public class Factory {
         return new House(id, position, images);
     }
 
+    public static TeleporterExit createExit(
+            String id, Point position, List<PImage> images)
+    {
+        return new TeleporterExit(id, position, images);
+    }
+
+    public static TeleporterEntrance createEntrance(
+            String id, Point position, List<PImage> images, int animationPeriod, int actionPeriod, TeleporterExit exit)
+    {
+        return new TeleporterEntrance(id, position, images, animationPeriod, actionPeriod, exit);
+    }
+
     public static Obstacle createObstacle(
             String id, Point position, int animationPeriod, List<PImage> images)
     {
