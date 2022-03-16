@@ -138,7 +138,7 @@ public final class VirtualWorld extends PApplet
         pointStreamFunction.apply(pressed, TRANSFORM_RANGE).filter(p->world.isOccupied(p)).map(p->world.getOccupancyCell(p)).forEach(entity->{
             if (entity instanceof Changeable)
             {
-                //((Changeable)entity).change();
+                ((Changeable)entity).change(world, scheduler, imageStore);
             }
         });
     }
