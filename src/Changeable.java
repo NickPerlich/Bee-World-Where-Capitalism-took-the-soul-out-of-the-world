@@ -1,4 +1,5 @@
 public interface Changeable
 {
-    public void change();
+    public String getImageID();
+    public void change(WorldModel world, EventScheduler eventScheduler);
 }
