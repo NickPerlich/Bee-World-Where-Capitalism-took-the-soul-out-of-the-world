@@ -1,8 +1,13 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Optional;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import processing.core.*;
 
@@ -26,6 +31,8 @@ public final class VirtualWorld extends PApplet
     public static final String DEFAULT_IMAGE_NAME = "background_default";
     public static final int DEFAULT_IMAGE_COLOR = 0x808080;
 
+    public static final String HIVE_IMAGE_NAME = "hive";
+
     public static String LOAD_FILE_NAME = "world.sav";
 
     public static final String FAST_FLAG = "-fast";
@@ -44,12 +51,16 @@ public final class VirtualWorld extends PApplet
 
     private long nextTime;
 
+    private int clicks;
+    private Entity teleportExit;
+    public static final int CLICK_RANGE = 1;
+
     public void settings() {
         size(VIEW_WIDTH, VIEW_HEIGHT);
     }
 
     /*
-       Processing entry point for "sketch" setup 
+       Processing entry point for "sketch" setup
     */
     public void setup() {
         this.imageStore = new ImageStore(
@@ -67,6 +78,8 @@ public final class VirtualWorld extends PApplet
         scheduleActions(world, scheduler, imageStore);
 
         nextTime = System.currentTimeMillis() + TIMER_ACTION_PERIOD;
+        this.clicks = 0;
+        this.teleportExit = null;
     }
 
     public void draw() {
@@ -91,6 +104,36 @@ public final class VirtualWorld extends PApplet
             System.out.println(entity.getId() + ": " + entity.getClass()); //+ " : " + entity.getHealth()
         }
 
+        /* New code for p5:
+        * find all entities within the click (maybe use stream)
+        * alternate between:
+        * 1. putting down an exit and changing background tiles
+        * 2. putting down an entrance and changing background tiles
+        *   linking  the entrance to the exit.*/
+
+        //put down exit/entrance
+        //update clicks counter and linker and link teles if needed
+
+        //find all points within range
+        Function<Point, Stream<Point>> pointStreamFunction = point ->
+        {
+            List<Point> possible = new ArrayList<Point>();
+            for (int i = -CLICK_RANGE; i <= CLICK_RANGE; i++)
+            {
+                for (int j = -CLICK_RANGE; j <= CLICK_RANGE; j ++)
+                {
+                    possible.add(new Point(pressed.x + i, pressed.y + j));
+                }
+            }
+            return possible.stream();
+        };
+        Stream<Point> withinRange = pointStreamFunction.apply(pressed).filter(p-> world.withinBounds(p));
+
+        //change all background tiles in range
+        withinRange.forEach(p -> world.setBackground(p, new Background(HIVE_IMAGE_NAME, imageStore.getImageList(HIVE_IMAGE_NAME))));
+
+        //use the points to find all entities within range that are changeable
+        //List<Point> possible = withinRange.collect(Collectors.toList());
     }
 
     private Point mouseToPoint(int x, int y)
