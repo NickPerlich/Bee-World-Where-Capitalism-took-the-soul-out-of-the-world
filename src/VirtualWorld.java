@@ -136,6 +136,7 @@ public final class VirtualWorld extends PApplet
 
         //use the points to find all entities within range that are changeable and call the change function
         pointStreamFunction.apply(pressed, TRANSFORM_RANGE).filter(p->world.isOccupied(p)).map(p->world.getOccupancyCell(p)).forEach(entity->{
+            //System.out.println(entity.getId());
             if (entity instanceof Changeable)
             {
                 ((Changeable)entity).change(world, scheduler, imageStore);
