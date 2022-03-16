@@ -20,8 +20,7 @@ public final class Dude_Full extends DudeEntity
     {
         super(id, position, images, animationPeriod, actionPeriod, resourceLimit);
     }
-
-
+    
     public void executeActivity(
             WorldModel world,
             ImageStore imageStore,
@@ -64,7 +63,7 @@ public final class Dude_Full extends DudeEntity
                 getPosition(), getActionPeriod(),
                 getAnimationPeriod(),
                 getResourceLimit(),
-                getImages());
+                imageStore.getImageList("bee"));
 
         this.transformDude(world, scheduler, imageStore, miner);
     }
