@@ -7,11 +7,11 @@ import processing.core.PImage;
  * different kinds of entities that exist.
  */
 
-public final class Dude_Not_Full extends DudeEntity
+public final class Bee_Not_Full extends BeeEntity
 {
     private int resourceCount;
 
-    public Dude_Not_Full(
+    public Bee_Not_Full(
             String id,
             Point position,
             List<PImage> images,
@@ -23,17 +23,15 @@ public final class Dude_Not_Full extends DudeEntity
         this.resourceCount = 0;
     }
 
-
-
     public void executeActivity(
             WorldModel world,
             ImageStore imageStore,
             EventScheduler scheduler)
     {
         Optional<Entity> target =
-                world.findNearest(getPosition(), new ArrayList<Class>(Arrays.asList(Tree.class, Sapling.class)));
+                world.findNearest(getPosition(), new ArrayList<Class>(Arrays.asList(Flower.class, Flower_Bud.class)));
 
-        if (!target.isPresent() || !this.moveToDude(world,
+        if (!target.isPresent() || !this.moveToBee(world,
                 target.get(),
                 scheduler)
                 || !this.transformNotFull(world, scheduler, imageStore))
@@ -49,13 +47,13 @@ public final class Dude_Not_Full extends DudeEntity
             ImageStore imageStore)
     {
         if (resourceCount >= getResourceLimit()) {
-            ActingEntity miner = Factory.createDudeFull(getId(),
+            ActingEntity miner = Factory.createBeeFull(getId(),
                     getPosition(), getActionPeriod(),
                     getAnimationPeriod(),
                     getResourceLimit(),
                     getImages());
 
-            this.transformDude(world, scheduler, imageStore, miner);
+            this.transformBee(world, scheduler, imageStore, miner);
 
             return true;
         }
@@ -63,29 +61,10 @@ public final class Dude_Not_Full extends DudeEntity
         return false;
     }
 
-    public boolean change(
-            WorldModel world,
-            EventScheduler scheduler,
-            ImageStore imageStore)
-    {
-        if (resourceCount >= getResourceLimit()) {
-            ActingEntity miner = Factory.createBeeNotFull(getId(),
-                    getPosition(), getActionPeriod(),
-                    getAnimationPeriod(),
-                    getResourceLimit(),
-                    getImages());
 
-            this.transformDude(world, scheduler, imageStore, miner);
-
-            return true;
-        }
-
-        return false;
-    }
-
-    public boolean _moveToDudeHelper(Entity target) {
+    public boolean _moveToBeeHelper(Entity target) {
         resourceCount += 1;
-        ((PlantEntity) target).setHealth(((PlantEntity)target).getHealth()-1);
+        ((FlowerEntity) target).setHealth(((FlowerEntity)target).getHealth()-1);
         return true;
     }
 
