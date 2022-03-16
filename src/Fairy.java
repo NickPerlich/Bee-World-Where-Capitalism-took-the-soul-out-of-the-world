@@ -11,7 +11,7 @@ import processing.core.PImage;
  * different kinds of entities that exist.
  */
 
-public final class Fairy extends ActingEntity
+public final class Fairy extends ActingEntity implements Changeable
 {
 
     public Fairy(
@@ -87,5 +87,22 @@ public final class Fairy extends ActingEntity
         }
     }
 
+    public void change(
+            WorldModel world,
+            EventScheduler scheduler,
+            ImageStore imageStore)
+    {
+        ActingEntity plntr = Factory.createPollinator(getId(),
+                getPosition(), getActionPeriod(),
+                getAnimationPeriod(),
+                imageStore.getImageList("pollinator"));
+
+        world.removeEntity(this);
+        scheduler.unscheduleAllEvents(this);
+
+        world.addEntity(plntr);
+        plntr.scheduleActions(scheduler, world, imageStore);
+
+    }
 
 }

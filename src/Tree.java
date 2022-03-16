@@ -7,7 +7,7 @@ import processing.core.PImage;
  * different kinds of entities that exist.
  */
 
-public final class Tree extends PlantEntity
+public final class Tree extends PlantEntity implements Changeable
 {
 
     public Tree(
@@ -30,5 +30,23 @@ public final class Tree extends PlantEntity
         return false;
     }
 
+    public void change(
+            WorldModel world,
+            EventScheduler scheduler,
+            ImageStore imageStore)
+    {
+        ActingEntity flr = Factory.createFlower(getId(),
+                getPosition(), getActionPeriod(),
+                getAnimationPeriod(),
+                getHealth(),
+                imageStore.getImageList("flower"));
+
+        world.removeEntity(this);
+        scheduler.unscheduleAllEvents(this);
+
+        world.addEntity(flr);
+        flr.scheduleActions(scheduler, world, imageStore);
+
+    }
 
 }

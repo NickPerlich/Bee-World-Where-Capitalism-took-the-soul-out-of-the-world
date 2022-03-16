@@ -7,7 +7,7 @@ import processing.core.PImage;
  * different kinds of entities that exist.
  */
 
-public final class Sapling extends PlantEntity
+public final class Sapling extends PlantEntity implements Changeable
 {
     private int healthLimit;
 
@@ -59,5 +59,19 @@ public final class Sapling extends PlantEntity
         return false;
     }
 
+    public void change(
+            WorldModel world,
+            EventScheduler scheduler,
+            ImageStore imageStore)
+    {
+        ActingEntity flrbd = Factory.createFlower_Bud(getId(),
+                getPosition(), imageStore.getImageList("bud"));
+
+        world.removeEntity(this);
+        scheduler.unscheduleAllEvents(this);
+
+        world.addEntity(flrbd);
+        flrbd.scheduleActions(scheduler, world, imageStore);
+    }
 
 }

@@ -68,15 +68,14 @@ public final class Dude_Not_Full extends DudeEntity implements Changeable
             EventScheduler scheduler,
             ImageStore imageStore)
     {
-        if (resourceCount >= getResourceLimit()) {
-            ActingEntity miner = Factory.createBeeNotFull(getId(),
+        ActingEntity miner = Factory.createBeeNotFull(getId(),
                     getPosition(), getActionPeriod(),
                     getAnimationPeriod(),
                     getResourceLimit(),
                     imageStore.getImageList("bee"));
 
-            this.transformDude(world, scheduler, imageStore, miner);
-        }
+        this.transformDude(world, scheduler, imageStore, miner);
+
     }
 
     public boolean _moveToDudeHelper(Entity target) {
@@ -84,6 +83,5 @@ public final class Dude_Not_Full extends DudeEntity implements Changeable
         ((PlantEntity) target).setHealth(((PlantEntity)target).getHealth()-1);
         return true;
     }
-
 
 }

@@ -92,6 +92,16 @@ public class Factory {
         return new Fairy(id, position, images, actionPeriod, animationPeriod);
     }
 
+    public static Pollinator createPollinator(
+            String id,
+            Point position,
+            int actionPeriod,
+            int animationPeriod,
+            List<PImage> images)
+    {
+        return new Pollinator(id, position, images, actionPeriod, animationPeriod);
+    }
+
     // need resource count, though it always starts at 0
     public static Dude_Not_Full createDudeNotFull(
             String id,
