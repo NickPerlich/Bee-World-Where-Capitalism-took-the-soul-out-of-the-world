@@ -20,7 +20,7 @@ public final class Dude_Full extends DudeEntity
     {
         super(id, position, images, animationPeriod, actionPeriod, resourceLimit);
     }
-    
+
     public void executeActivity(
             WorldModel world,
             ImageStore imageStore,
