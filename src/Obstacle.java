@@ -7,7 +7,7 @@ import processing.core.PImage;
  * different kinds of entities that exist.
  */
 
-public final class Obstacle extends AnimatingEntity
+public final class Obstacle extends AnimatingEntity implements Changeable
 {
 
     public Obstacle(
@@ -19,5 +19,17 @@ public final class Obstacle extends AnimatingEntity
         super(id, position, images, animationPeriod);
     }
 
+    @Override
+    public void change(WorldModel world, EventScheduler eventScheduler, ImageStore images)
+    {
+        Obstacle voidWater = Factory.createObstacle(getId(),
+                getPosition(),
+                getAnimationPeriod(),
+                images.getImageList("void"));
 
+        world.removeEntity(this);
+        eventScheduler.unscheduleAllEvents(this);
+        world.addEntity(voidWater);
+        voidWater.scheduleActions(eventScheduler, world, images);
+    }
 }
